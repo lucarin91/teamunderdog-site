@@ -69,6 +69,16 @@ body {
   }
 }
 
+.padding {
+  padding: 10px;
+}
+.padding-top {
+  padding-top: 10px;
+}
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
 .content {
   z-index: 1;
   text-align: center;
@@ -213,6 +223,12 @@ body {
 .images {
   @media only screen and (min-width: $cut) {
     float: right;
+  }
+}
+
+.img-logo {
+  @media only screen and (max-width: $cut) {
+    width: 100%;
   }
 }
 
